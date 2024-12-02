@@ -81,6 +81,6 @@ def download_automatic_subtitle(url, target_langs=["it", "en"], print_info=False
     except Exception as e:
         print(f"Si è verificato un errore: {e}", file=sys.stderr)
 
-# Esempio di utilizzo:
-url_video = "https://www.youtube.com/watch?v=CDQ_dLmDbDo"
-download_automatic_subtitle(url_video, target_langs=["it", "en", "es"], print_info=True, folder_path="./downloads")
+# # Esempio di utilizzo:
+# url_video = "https://www.youtube.com/watch?v=CDQ_dLmDbDo"
+# download_automatic_subtitle(url_video, target_langs=["it", "en", "es"], print_info=True, folder_path="./downloads")
